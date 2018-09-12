@@ -1,0 +1,149 @@
+body{ 
+    background-color:rgb(248, 225, 160);
+    color:rgb(94, 94, 94);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:16px;
+    font-weight:bold; 
+    /*normal,bold,bolder,100,200 etc...*/
+    line-height:1.6em;
+}
+a{
+   text-decoration:none;
+   color:black;
+}
+a:active{
+    color:green
+}
+ /*{a:visited{
+    color:orange
+    } when site is visited button turns orange*/
+.container{
+    /* width can use pixels (960px) but % will respond to screen size*/
+    width:80%;
+    margin:auto;
+}
+.button{
+    background-color:#333;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+    cursor:pointer;
+}
+.button:hover{
+    background:red;
+    color:white
+}
+.clr{
+    clear:both;
+}
+.box-1{
+    background-color:rgb(0, 0, 0);
+    color:white;
+    border:5px red solid;
+    /*above is all borders, below targets sides*/
+    border-bottom-width:20px;
+    border-top-style:dotted; 
+    /*solid,dotted,dashed,double etc...*/
+    padding:20px;
+    margin-top:20px;
+}
+.box-1 h1{
+    font-family:Times New Roman, Times, serif;
+    font-weight:800;
+    font-style:italic;
+    text-decoration: underline;
+    text-transform:uppercase;
+    letter-spacing:0.2em;
+    word-spacing:1m;
+}
+.box-2{
+    border:3px dotted blue;
+    padding:20px;
+    margin:20pix;
+}
+.categories{
+    border:4px green solid;
+    padding:10px;
+    border-radius:15px;
+    /*roundness of the corners*/
+}
+.categories h2{
+    text-align:center;
+}
+.categories ul{
+    padding:0px;
+    padding-left:20px;
+    list-style:none;
+}
+.categories li{
+    padding-bottom:6px;
+    border-bottom:dotted 1px purple;
+    list-style-image: url('check.png'); /*if in differ folder then ('../folder/check.png')*/
+}
+.my-form{
+    padding:20px;
+}
+.my-form .form-group{
+    padding-bottom:15px;
+}
+.my-form label{
+    display:block;
+}
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width:100%;
+}
+.Block{
+    float:left;
+    width:33.3%; /*because there is 3 of them*/
+    border:1px solid #ccc;
+    padding:10px;
+    box-sizing:border-box;
+}
+#main-block{ /*IDs use number signs*/
+    float:left;
+    width:70%
+}
+#sidebar{
+    float:right;
+    width:30%;
+    background-color:gray;
+    color:white;
+    padding:15px;
+    box-sizing:border-box;
+}
+.p-box{
+    width:800px;
+    height:500px;
+    border:10px solid #000;
+    margin-top:30px;
+    position:relative;
+    background-image:url('bgimage.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.p-box h1{
+    color:red;
+    position:absolute;
+    top:40px;
+    left:200px;
+}
+.p-box h2{
+    color:red;
+    position:absolute;
+    bottom:40px;
+    right:100px;
+}
+.fix-me{
+    position:fixed;
+    top:400px;
+}
+.my-list li:first-child{
+    background:red;
+}
+.my-list li:last-child{
+    background:blue;
+}
+.my-list li:nth-child(5){
+    background:yellow;
+}
