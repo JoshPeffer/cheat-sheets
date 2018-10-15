@@ -1,1 +1,1 @@
-These are simple "cheat sheets" that use most of the basics of HTML and CSS. I made these when I was first learning the languages so they could be used as references.
+These are simple "cheat sheets" that use most of the basics of HTML and CSS. I followed Traversy Media's youtube videos to make these when I was first learning the languages so they could be used as references.
